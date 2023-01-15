@@ -18,6 +18,7 @@ public class DockerCheckApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DockerCheckApplication.class, args);
+        System.out.println("We are checking cherry-pick");
     }
 
 }
